@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://zero-null.github.io/</id>
     <title>Zero</title>
-    <updated>2019-10-17T10:13:00.204Z</updated>
+    <updated>2019-10-17T10:26:52.412Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <link rel="alternate" href="https://zero-null.github.io/"/>
+    <link rel="self" href="https://zero-null.github.io//atom.xml"/>
+    <logo>https://zero-null.github.io//images/avatar.png</logo>
+    <icon>https://zero-null.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Zero</rights>
     <entry>
         <title type="html"><![CDATA[图片获取]]></title>
-        <id>http://localhost:4000/post/tu-pian-huo-qu</id>
-        <link href="http://localhost:4000/post/tu-pian-huo-qu">
+        <id>https://zero-null.github.io//post/tu-pian-huo-qu</id>
+        <link href="https://zero-null.github.io//post/tu-pian-huo-qu">
         </link>
         <updated>2019-10-11T10:38:49.000Z</updated>
         <content type="html"><![CDATA[<p><a href="https://www.ssyer.com/">沙沙野</a><br>
@@ -25,8 +25,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[找到你自己]]></title>
-        <id>http://localhost:4000/post/zhao-dao-ni-zi-ji</id>
-        <link href="http://localhost:4000/post/zhao-dao-ni-zi-ji">
+        <id>https://zero-null.github.io//post/zhao-dao-ni-zi-ji</id>
+        <link href="https://zero-null.github.io//post/zhao-dao-ni-zi-ji">
         </link>
         <updated>2019-10-11T07:06:40.000Z</updated>
         <content type="html"><![CDATA[<h2 id="虚拟形象">虚拟形象</h2>
@@ -35,8 +35,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[设计之道]]></title>
-        <id>http://localhost:4000/post/hello-gridea</id>
-        <link href="http://localhost:4000/post/hello-gridea">
+        <id>https://zero-null.github.io//post/hello-gridea</id>
+        <link href="https://zero-null.github.io//post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<!-- more -->
