@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://localhost:4000</id>
+    <title>Zero</title>
+    <updated>2019-10-17T10:13:00.204Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
+    <rights>All rights reserved 2019, Zero</rights>
+    <entry>
+        <title type="html"><![CDATA[图片获取]]></title>
+        <id>http://localhost:4000/post/tu-pian-huo-qu</id>
+        <link href="http://localhost:4000/post/tu-pian-huo-qu">
+        </link>
+        <updated>2019-10-11T10:38:49.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://www.ssyer.com/">沙沙野</a><br>
+<a href="http://www.lanrentuku.com/">懒人图库</a><br>
+<a href="http://www.polayoutu.com/collections">泼辣有图</a><br>
+<a href="https://www.hippopx.com/zh">Hippopx</a><br>
+<a href="https://www.colorhub.me/">colorhub.me</a><br>
+<a href="https://www.photock.org/">Photock</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[找到你自己]]></title>
+        <id>http://localhost:4000/post/zhao-dao-ni-zi-ji</id>
+        <link href="http://localhost:4000/post/zhao-dao-ni-zi-ji">
+        </link>
+        <updated>2019-10-11T07:06:40.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="虚拟形象">虚拟形象</h2>
+<h2 id="名字">名字</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[设计之道]]></title>
+        <id>http://localhost:4000/post/hello-gridea</id>
+        <link href="http://localhost:4000/post/hello-gridea">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h2 id="原则">原则</h2>
+<h3 id="简约">简约</h3>
+<h3 id="关注点分离">关注点分离</h3>
+<h2 id="感受">感受</h2>
+<h3 id="视觉">视觉</h3>
+<h2 id="组件">组件</h2>
+<h3 id="导航">导航</h3>
+<h2 id="模式">模式</h2>
+]]></content>
+    </entry>
+</feed>
