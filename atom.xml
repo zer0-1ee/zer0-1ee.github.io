@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zero-null.github.io/</id>
     <title>Zero</title>
-    <updated>2019-10-17T10:27:23.651Z</updated>
+    <updated>2019-12-14T18:51:04.644Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zero-null.github.io/"/>
     <link rel="self" href="https://zero-null.github.io//atom.xml"/>
@@ -10,44 +10,60 @@
     <icon>https://zero-null.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Zero</rights>
     <entry>
-        <title type="html"><![CDATA[图片获取]]></title>
-        <id>https://zero-null.github.io//post/tu-pian-huo-qu</id>
-        <link href="https://zero-null.github.io//post/tu-pian-huo-qu">
+        <title type="html"><![CDATA[万物的起源]]></title>
+        <id>https://zero-null.github.io//post/wan-wu-de-qi-yuan</id>
+        <link href="https://zero-null.github.io//post/wan-wu-de-qi-yuan">
         </link>
-        <updated>2019-10-11T10:38:49.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://www.ssyer.com/">沙沙野</a><br>
-<a href="http://www.lanrentuku.com/">懒人图库</a><br>
-<a href="http://www.polayoutu.com/collections">泼辣有图</a><br>
-<a href="https://www.hippopx.com/zh">Hippopx</a><br>
-<a href="https://www.colorhub.me/">colorhub.me</a><br>
-<a href="https://www.photock.org/">Photock</a></p>
+        <updated>2019-12-13T16:28:24.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="现有理论分析">现有理论分析</h2>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[找到你自己]]></title>
-        <id>https://zero-null.github.io//post/zhao-dao-ni-zi-ji</id>
-        <link href="https://zero-null.github.io//post/zhao-dao-ni-zi-ji">
+        <title type="html"><![CDATA[我收藏的软件]]></title>
+        <id>https://zero-null.github.io//post/ru-he-xun-zhao-ruan-jian</id>
+        <link href="https://zero-null.github.io//post/ru-he-xun-zhao-ruan-jian">
         </link>
-        <updated>2019-10-11T07:06:40.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="虚拟形象">虚拟形象</h2>
-<h2 id="名字">名字</h2>
+        <updated>2019-12-08T09:18:02.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="开发工具">开发工具</h2>
+<h3 id="脑图">脑图</h3>
+<p><a href="https://github.com/NaoTu/DesktopNaotu">DesktopNaotu</a></p>
+<h3 id="原型">原型</h3>
+<h3 id="设计">设计</h3>
+<h3 id="编程语言">编程语言</h3>
+<h3 id="ide">IDE</h3>
+<h3 id="数据库">数据库</h3>
+<h2 id="系统软件">系统软件</h2>
+<h3 id="电脑管家">电脑管家</h3>
+<p><a href="https://guanjia.lenovo.com.cn/">联想电脑管家</a></p>
+<h3 id="动态桌面">动态桌面</h3>
+<p><a href="http://www.upupoo.com/">UPUPOO</a></p>
+<h3 id="账号管理">账号管理</h3>
+<p><a href="https://keepass.info/">KeePass</a></p>
+<h3 id="网络浏览">网络浏览</h3>
+<p><a href="https://www.mozilla.org/zh-CN/firefox/new/">FireFox</a></p>
+<h2 id="应用">应用</h2>
+<h3 id="博客">博客</h3>
+<p><a href="https://gridea.dev/">Gridea</a></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[设计之道]]></title>
-        <id>https://zero-null.github.io//post/hello-gridea</id>
-        <link href="https://zero-null.github.io//post/hello-gridea">
+        <title type="html"><![CDATA[翻越“围墙”]]></title>
+        <id>https://zero-null.github.io//post/fan-yue-wei-qiang</id>
+        <link href="https://zero-null.github.io//post/fan-yue-wei-qiang">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<h2 id="原则">原则</h2>
-<h3 id="简约">简约</h3>
-<h3 id="关注点分离">关注点分离</h3>
-<h2 id="感受">感受</h2>
-<h3 id="视觉">视觉</h3>
-<h2 id="组件">组件</h2>
-<h3 id="导航">导航</h3>
-<h2 id="模式">模式</h2>
+        <updated>2019-11-20T11:49:06.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="性能与稳定性监测">性能与稳定性监测</h2>
+<p><a href="https://cc.greatfire.org/zh">GreatFire 翻墙中心</a></p>
+<h2 id="vpn">VPN</h2>
+<ul>
+<li><a href="http://www.wujieliulan.com/home.htm">无界浏览</a></li>
+<li><a href="https://getlantern.org/zh_CN/index.html">蓝灯</a></li>
+<li><a href="https://psiphon.ca/">Psiphon</a></li>
+<li><a href="https://www.torproject.org/">Tor</a></li>
+<li><a href="http://dongtaiwang.com/loc/phome.php?v=0">自由门</a></li>
+<li><a href="https://freebrowser.org/en">FreeBrowser</a></li>
+<li><a href="https://github.com/XX-net/XX-Net">XX-Net</a></li>
+</ul>
 ]]></content>
     </entry>
 </feed>
