@@ -2,13 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zer0-1ee.github.io/</id>
     <title>Zero</title>
-    <updated>2019-12-14T19:35:04.213Z</updated>
+    <updated>2019-12-15T17:43:21.074Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zer0-1ee.github.io/"/>
     <link rel="self" href="https://zer0-1ee.github.io//atom.xml"/>
     <logo>https://zer0-1ee.github.io//images/avatar.png</logo>
     <icon>https://zer0-1ee.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Zero</rights>
+    <entry>
+        <title type="html"><![CDATA[我收藏的网站]]></title>
+        <id>https://zer0-1ee.github.io//post/wo-shou-cang-de-wang-zhan</id>
+        <link href="https://zer0-1ee.github.io//post/wo-shou-cang-de-wang-zhan">
+        </link>
+        <updated>2019-12-15T17:42:25.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="搜索">搜索</h2>
+<h3 id="搜索引擎">搜索引擎</h3>
+<h3 id="网站收录">网站收录</h3>
+<h3 id="网站导航">网站导航</h3>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[万物的起源]]></title>
         <id>https://zer0-1ee.github.io//post/wan-wu-de-qi-yuan</id>
@@ -37,8 +49,6 @@
 <p><a href="https://guanjia.lenovo.com.cn/">联想电脑管家</a></p>
 <h3 id="动态桌面">动态桌面</h3>
 <p><a href="http://www.upupoo.com/">UPUPOO</a></p>
-<h3 id="账号管理">账号管理</h3>
-<p><a href="https://keepass.info/">KeePass</a></p>
 <h3 id="网络浏览">网络浏览</h3>
 <p><a href="https://www.mozilla.org/zh-CN/firefox/new/">FireFox</a></p>
 <h2 id="应用">应用</h2>
