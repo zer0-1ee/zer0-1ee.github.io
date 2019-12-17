@@ -2,9 +2,9 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>网站集 | Zero</title>
+<title>UWP（3）——开发篇 | Zero</title>
 <meta name="description" content="" />
-<link rel="shortcut icon" href="https://zer0-1ee.github.io//favicon.ico?v=1576437645379">
+<link rel="shortcut icon" href="https://zer0-1ee.github.io//favicon.ico?v=1576568884754">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://zer0-1ee.github.io//styles/main.css">
@@ -20,7 +20,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://zer0-1ee.github.io/">
-  <img class="avatar" src="https://zer0-1ee.github.io//images/avatar.png?v=1576437645379" alt="">
+  <img class="avatar" src="https://zer0-1ee.github.io//images/avatar.png?v=1576568884754" alt="">
   </a>
   <h1 class="site-title">
     Zero
@@ -31,20 +31,26 @@
   <div class="menu-container">
     
       
-        <a href="https://zero-null.github.io//post/bo-zhu/" class="menu">
-          博主
+        <a href="https://zer0-1ee.github.io//post/bo-zhu/" class="menu">
+          我
         </a>
       
     
       
-        <a href="https://zero-null.github.io//post/sui-bi/" class="menu">
+        <a href="https://zer0-1ee.github.io//post/sui-bi/" class="menu">
           随笔
         </a>
       
     
       
-        <a href="https://zero-null.github.io//post/zuo-pin/" class="menu">
+        <a href="https://zer0-1ee.github.io//post/zuo-pin/" class="menu">
           作品
+        </a>
+      
+    
+      
+        <a href="https://zer0-1ee.github.io//post/gan-xie/" class="menu">
+          感谢
         </a>
       
     
@@ -67,104 +73,56 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              网站集
+              UWP（3）——开发篇
             </h2>
             <div class="post-info">
               <span>
-                2019-12-16
+                2019-11-29
               </span>
               <span>
                 1 min read
               </span>
               
+                <a href="https://zer0-1ee.github.io//tag/windows" class="post-tag">
+                  # Windows
+                </a>
+              
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <h2 id="找网站">找网站</h2>
-<h3 id="web-搜索">Web 搜索</h3>
-<table>
-<thead>
-<tr>
-<th>名称</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://www.baidu.com/">百度</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://www.sogou.com/">搜狗</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://www.so.com/">360 搜索</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://cn.bing.com/">Bing</a></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://www.google.com/">Google</a></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="网站收录">网站收录</h3>
-<p>https://top.chinaz.com/<br>
-https://www.curlie.org/zh_CN</p>
-<h2 id="生活">生活</h2>
-<h3 id="购物">购物</h3>
-<h2 id="领域">领域</h2>
-<h3 id="管理">管理</h3>
-<table>
-<thead>
-<tr>
-<th>名称</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://mbalib.com/">MBA 智库</a></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="人物">人物</h2>
-<h3 id="政府">政府</h3>
-<h3 id="企业">企业</h3>
-<h3 id="个人">个人</h3>
+                <h2 id="环境">环境</h2>
+<ol>
+<li><a href="https://developer.microsoft.com/zh-cn/windows/downloads">下载 Visual Studio</a></li>
+<li>进入<em>设置</em>-&gt;<em>更新和安全</em>-&gt;<em>开发者选项</em>，<em>使用开发人员功能</em>中，选择<em>开发人员模式</em></li>
+<li>注册<em>开发者账户</em></li>
+</ol>
+<h2 id="开发">开发</h2>
+<h3 id="ui">UI</h3>
+<pre><code class="language-C#">this.Frame.Navigate(typeof(Page));
+</code></pre>
+<h3 id="多媒体">多媒体</h3>
+<h3 id="通信">通信</h3>
+<h3 id="数据">数据</h3>
+<h3 id="部署">部署</h3>
+<h3 id="平台">平台</h3>
+<h3 id="进程与线程">进程与线程</h3>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#%E6%89%BE%E7%BD%91%E7%AB%99">找网站</a>
+<li><a href="#%E7%8E%AF%E5%A2%83">环境</a></li>
+<li><a href="#%E5%BC%80%E5%8F%91">开发</a>
 <ul>
-<li><a href="#web-%E6%90%9C%E7%B4%A2">Web 搜索</a></li>
-<li><a href="#%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95">网站收录</a></li>
-</ul>
-</li>
-<li><a href="#%E7%94%9F%E6%B4%BB">生活</a>
-<ul>
-<li><a href="#%E8%B4%AD%E7%89%A9">购物</a></li>
-</ul>
-</li>
-<li><a href="#%E9%A2%86%E5%9F%9F">领域</a>
-<ul>
-<li><a href="#%E7%AE%A1%E7%90%86">管理</a></li>
-</ul>
-</li>
-<li><a href="#%E4%BA%BA%E7%89%A9">人物</a>
-<ul>
-<li><a href="#%E6%94%BF%E5%BA%9C">政府</a></li>
-<li><a href="#%E4%BC%81%E4%B8%9A">企业</a></li>
-<li><a href="#%E4%B8%AA%E4%BA%BA">个人</a></li>
+<li><a href="#ui">UI</a></li>
+<li><a href="#%E5%A4%9A%E5%AA%92%E4%BD%93">多媒体</a></li>
+<li><a href="#%E9%80%9A%E4%BF%A1">通信</a></li>
+<li><a href="#%E6%95%B0%E6%8D%AE">数据</a></li>
+<li><a href="#%E9%83%A8%E7%BD%B2">部署</a></li>
+<li><a href="#%E5%B9%B3%E5%8F%B0">平台</a></li>
+<li><a href="#%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B">进程与线程</a></li>
 </ul>
 </li>
 </ul>
@@ -179,9 +137,9 @@ https://www.curlie.org/zh_CN</p>
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://zer0-1ee.github.io//post/wan-wu-de-qi-yuan">
+            <a href="https://zer0-1ee.github.io//post/uwp2-she-ji-pian">
               <h3 class="post-title">
-                万物的起源
+                UWP（2）——设计篇
               </h3>
             </a>
           </div>

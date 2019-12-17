@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>随笔 | Zero</title>
+<title>UWP（1）——概念篇 | Zero</title>
 <meta name="description" content="" />
 <link rel="shortcut icon" href="https://zer0-1ee.github.io//favicon.ico?v=1576568884754">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -73,28 +73,68 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              随笔
+              UWP（1）——概念篇
             </h2>
             <div class="post-info">
               <span>
-                2019-11-15
+                2019-11-22
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
+              
+                <a href="https://zer0-1ee.github.io//tag/windows" class="post-tag">
+                  # Windows
+                </a>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <h2 id="见闻">见闻</h2>
+                <h2 id=""></h2>
+<p>UWP 的 UI 元素具备自适应性，其原理是根据观看距离和屏幕密度（每英寸像素），以针对感知大小（而不是物理大小）进行优化。</p>
+<p>以有效像素而不是实际物理像素为单位。有效像素 (epx) 是一个虚拟度量单位，用于表示布局尺寸和间距（独立于屏幕密度）<br>
+UI 元素的大小、边距和位置应始终为 4 epx 的倍数。</p>
+<p>UWP 可以跨一系列设备进行缩放，缩放比例为 100%、125%、150%、175%、200%、225%、250%、300%、350%、400%。 基础单位为 4，因为这是可以通过非整数进行缩放的唯一整数（例如，4*1.5 = 6）。 使用 4 的倍数可以将所有 UI 元素与整个像素匹配，并可确保 UI 元素具有清晰的锐边。 （请注意，文本不会有此要求；文本的大小和位置可以是任意值。）</p>
+<h2 id="了解-windows-应用的结构">了解 Windows 应用的结构</h2>
+<p>页面包含如下元素：</p>
+<ul>
+<li>
+<p>导航</p>
+</li>
+<li>
+<p>命令</p>
+</li>
+<li>
+<p>内容</p>
+</li>
+<li>
+<p>控件</p>
+</li>
+<li>
+<p>样式（主题、自定义）</p>
+</li>
+<li>
+<p>壳体（磁贴、通知）</p>
+</li>
+<li>
+<p>输入</p>
+</li>
+<li>
+<p>特定设备优化</p>
+</li>
+<li>
+<p>可用性（全球化、辅助功能）</p>
+</li>
+</ul>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#%E8%A7%81%E9%97%BB">见闻</a></li>
+<li></li>
+<li><a href="#%E4%BA%86%E8%A7%A3-windows-%E5%BA%94%E7%94%A8%E7%9A%84%E7%BB%93%E6%9E%84">了解 Windows 应用的结构</a></li>
 </ul>
 </li>
 </ul>
@@ -104,6 +144,15 @@
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://zer0-1ee.github.io//post/fan-yue-wei-qiang">
+              <h3 class="post-title">
+                翻越“围墙”
+              </h3>
+            </a>
+          </div>
         
 
         

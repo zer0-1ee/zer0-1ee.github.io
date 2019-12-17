@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zer0-1ee.github.io/</id>
     <title>Zero</title>
-    <updated>2019-12-15T19:20:47.692Z</updated>
+    <updated>2019-12-17T07:48:26.678Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zer0-1ee.github.io/"/>
     <link rel="self" href="https://zer0-1ee.github.io//atom.xml"/>
@@ -10,12 +10,57 @@
     <icon>https://zer0-1ee.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Zero</rights>
     <entry>
-        <title type="html"><![CDATA[网站集]]></title>
-        <id>https://zer0-1ee.github.io//post/wo-shou-cang-de-wang-zhan</id>
-        <link href="https://zer0-1ee.github.io//post/wo-shou-cang-de-wang-zhan">
+        <title type="html"><![CDATA[万物的起源]]></title>
+        <id>https://zer0-1ee.github.io//post/wan-wu-de-qi-yuan</id>
+        <link href="https://zer0-1ee.github.io//post/wan-wu-de-qi-yuan">
         </link>
-        <updated>2019-12-15T17:42:25.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="找网站">找网站</h2>
+        <updated>2019-12-13T16:28:24.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="现有理论分析">现有理论分析</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[软件集]]></title>
+        <id>https://zer0-1ee.github.io//post/ru-he-xun-zhao-ruan-jian</id>
+        <link href="https://zer0-1ee.github.io//post/ru-he-xun-zhao-ruan-jian">
+        </link>
+        <updated>2019-12-08T09:18:02.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="系统">系统</h2>
+<h3 id="电脑管家">电脑管家</h3>
+<p><a href="https://guanjia.lenovo.com.cn/">联想电脑管家</a></p>
+<h3 id="动态桌面">动态桌面</h3>
+<p><a href="http://www.upupoo.com/">UPUPOO</a></p>
+<h3 id="网络浏览">网络浏览</h3>
+<p><a href="https://www.mozilla.org/zh-CN/firefox/new/">FireFox</a></p>
+<h2 id="应用">应用</h2>
+<h3 id="生活">生活</h3>
+<h4 id="博客">博客</h4>
+<p><a href="https://gridea.dev/">Gridea</a></p>
+<h3 id="领域">领域</h3>
+<h4 id="管理">管理</h4>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://mbalib.com/">MBA 智库</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="游戏">游戏</h2>
+<h2 id="开发">开发</h2>
+<h3 id="脑图">脑图</h3>
+<p><a href="https://github.com/NaoTu/DesktopNaotu">DesktopNaotu</a></p>
+<h3 id="原型">原型</h3>
+<h3 id="设计">设计</h3>
+<h3 id="编程语言">编程语言</h3>
+<h3 id="ide">IDE</h3>
+<h3 id="数据库">数据库</h3>
+<h2 id="找软件">找软件</h2>
 <h3 id="web-搜索">Web 搜索</h3>
 <table>
 <thead>
@@ -50,63 +95,83 @@
 <h3 id="网站收录">网站收录</h3>
 <p>https://top.chinaz.com/<br>
 https://www.curlie.org/zh_CN</p>
-<h2 id="生活">生活</h2>
-<h3 id="购物">购物</h3>
-<h2 id="领域">领域</h2>
-<h3 id="管理">管理</h3>
-<table>
-<thead>
-<tr>
-<th>名称</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://mbalib.com/">MBA 智库</a></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h2 id="人物">人物</h2>
-<h3 id="政府">政府</h3>
-<h3 id="企业">企业</h3>
-<h3 id="个人">个人</h3>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[万物的起源]]></title>
-        <id>https://zer0-1ee.github.io//post/wan-wu-de-qi-yuan</id>
-        <link href="https://zer0-1ee.github.io//post/wan-wu-de-qi-yuan">
+        <title type="html"><![CDATA[UWP（3）——开发篇]]></title>
+        <id>https://zer0-1ee.github.io//post/uwp-kai-fa-pian</id>
+        <link href="https://zer0-1ee.github.io//post/uwp-kai-fa-pian">
         </link>
-        <updated>2019-12-13T16:28:24.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="现有理论分析">现有理论分析</h2>
+        <updated>2019-11-29T13:18:49.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="环境">环境</h2>
+<ol>
+<li><a href="https://developer.microsoft.com/zh-cn/windows/downloads">下载 Visual Studio</a></li>
+<li>进入<em>设置</em>-&gt;<em>更新和安全</em>-&gt;<em>开发者选项</em>，<em>使用开发人员功能</em>中，选择<em>开发人员模式</em></li>
+<li>注册<em>开发者账户</em></li>
+</ol>
+<h2 id="开发">开发</h2>
+<h3 id="ui">UI</h3>
+<pre><code class="language-C#">this.Frame.Navigate(typeof(Page));
+</code></pre>
+<h3 id="多媒体">多媒体</h3>
+<h3 id="通信">通信</h3>
+<h3 id="数据">数据</h3>
+<h3 id="部署">部署</h3>
+<h3 id="平台">平台</h3>
+<h3 id="进程与线程">进程与线程</h3>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[我收藏的软件]]></title>
-        <id>https://zer0-1ee.github.io//post/ru-he-xun-zhao-ruan-jian</id>
-        <link href="https://zer0-1ee.github.io//post/ru-he-xun-zhao-ruan-jian">
+        <title type="html"><![CDATA[UWP（2）——设计篇]]></title>
+        <id>https://zer0-1ee.github.io//post/uwp2-she-ji-pian</id>
+        <link href="https://zer0-1ee.github.io//post/uwp2-she-ji-pian">
         </link>
-        <updated>2019-12-08T09:18:02.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="开发工具">开发工具</h2>
-<h3 id="脑图">脑图</h3>
-<p><a href="https://github.com/NaoTu/DesktopNaotu">DesktopNaotu</a></p>
-<h3 id="原型">原型</h3>
-<h3 id="设计">设计</h3>
-<h3 id="编程语言">编程语言</h3>
-<h3 id="ide">IDE</h3>
-<h3 id="数据库">数据库</h3>
-<h2 id="系统软件">系统软件</h2>
-<h3 id="电脑管家">电脑管家</h3>
-<p><a href="https://guanjia.lenovo.com.cn/">联想电脑管家</a></p>
-<h3 id="动态桌面">动态桌面</h3>
-<p><a href="http://www.upupoo.com/">UPUPOO</a></p>
-<h3 id="网络浏览">网络浏览</h3>
-<p><a href="https://www.mozilla.org/zh-CN/firefox/new/">FireFox</a></p>
-<h2 id="应用">应用</h2>
-<h3 id="博客">博客</h3>
-<p><a href="https://gridea.dev/">Gridea</a></p>
+        <updated>2019-11-29T13:17:00.000Z</updated>
+        <content type="html"><![CDATA[<p>遵循 <em>Fluent 设计系统</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UWP（1）——概念篇]]></title>
+        <id>https://zer0-1ee.github.io//post/windows-ying-yong-kai-fa</id>
+        <link href="https://zer0-1ee.github.io//post/windows-ying-yong-kai-fa">
+        </link>
+        <updated>2019-11-22T12:19:01.000Z</updated>
+        <content type="html"><![CDATA[<h2 id=""></h2>
+<p>UWP 的 UI 元素具备自适应性，其原理是根据观看距离和屏幕密度（每英寸像素），以针对感知大小（而不是物理大小）进行优化。</p>
+<p>以有效像素而不是实际物理像素为单位。有效像素 (epx) 是一个虚拟度量单位，用于表示布局尺寸和间距（独立于屏幕密度）<br>
+UI 元素的大小、边距和位置应始终为 4 epx 的倍数。</p>
+<p>UWP 可以跨一系列设备进行缩放，缩放比例为 100%、125%、150%、175%、200%、225%、250%、300%、350%、400%。 基础单位为 4，因为这是可以通过非整数进行缩放的唯一整数（例如，4*1.5 = 6）。 使用 4 的倍数可以将所有 UI 元素与整个像素匹配，并可确保 UI 元素具有清晰的锐边。 （请注意，文本不会有此要求；文本的大小和位置可以是任意值。）</p>
+<h2 id="了解-windows-应用的结构">了解 Windows 应用的结构</h2>
+<p>页面包含如下元素：</p>
+<ul>
+<li>
+<p>导航</p>
+</li>
+<li>
+<p>命令</p>
+</li>
+<li>
+<p>内容</p>
+</li>
+<li>
+<p>控件</p>
+</li>
+<li>
+<p>样式（主题、自定义）</p>
+</li>
+<li>
+<p>壳体（磁贴、通知）</p>
+</li>
+<li>
+<p>输入</p>
+</li>
+<li>
+<p>特定设备优化</p>
+</li>
+<li>
+<p>可用性（全球化、辅助功能）</p>
+</li>
+</ul>
 ]]></content>
     </entry>
     <entry>
