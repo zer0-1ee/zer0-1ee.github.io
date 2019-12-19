@@ -2,9 +2,9 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>UWP（2）——设计篇 | Zero</title>
+<title>操作系统 | Zero</title>
 <meta name="description" content="" />
-<link rel="shortcut icon" href="https://zer0-1ee.github.io//favicon.ico?v=1576569988586">
+<link rel="shortcut icon" href="https://zer0-1ee.github.io//favicon.ico?v=1576733570321">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://zer0-1ee.github.io//styles/main.css">
@@ -20,7 +20,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://zer0-1ee.github.io/">
-  <img class="avatar" src="https://zer0-1ee.github.io//images/avatar.png?v=1576569988586" alt="">
+  <img class="avatar" src="https://zer0-1ee.github.io//images/avatar.png?v=1576733570321" alt="">
   </a>
   <h1 class="site-title">
     Zero
@@ -54,6 +54,12 @@
         </a>
       
     
+      
+        <a href="https://zer0-1ee.github.io//post/zhi-shi-ku/" class="menu">
+          知识
+        </a>
+      
+    
   </div>
   <div class="social-container">
     
@@ -73,11 +79,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              UWP（2）——设计篇
+              操作系统
             </h2>
             <div class="post-info">
               <span>
-                2019-11-29
+                2019-12-17
               </span>
               <span>
                 1 min read
@@ -87,11 +93,72 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>遵循 <em>Fluent 设计系统</em></p>
+                <h2 id="类型">类型</h2>
+<h3 id="单任务与多任务">单任务与多任务</h3>
+<h3 id="单用户与多用户">单用户与多用户</h3>
+<h3 id="分布式">分布式</h3>
+<h3 id="templated">Templated</h3>
+<h3 id="嵌入式">嵌入式</h3>
+<h3 id="实时">实时</h3>
+<h3 id="library">Library</h3>
+<h2 id="组件">组件</h2>
+<h3 id="内核">内核</h3>
+<h4 id="程序执行">程序执行</h4>
+<h4 id="中断">中断</h4>
+<h4 id="模式">模式</h4>
+<h4 id="内存管理">内存管理</h4>
+<h4 id="虚拟内存">虚拟内存</h4>
+<h4 id="多任务">多任务</h4>
+<h4 id="磁盘访问与文件系统">磁盘访问与文件系统</h4>
+<h4 id="设备驱动">设备驱动</h4>
+<h3 id="网络">网络</h3>
+<h3 id="安全">安全</h3>
+<h3 id="ui">UI</h3>
+<h2 id="参考">参考</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Operating_system">Wikipedia</a></li>
+</ul>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E7%B1%BB%E5%9E%8B">类型</a>
+<ul>
+<li><a href="#%E5%8D%95%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%A4%9A%E4%BB%BB%E5%8A%A1">单任务与多任务</a></li>
+<li><a href="#%E5%8D%95%E7%94%A8%E6%88%B7%E4%B8%8E%E5%A4%9A%E7%94%A8%E6%88%B7">单用户与多用户</a></li>
+<li><a href="#%E5%88%86%E5%B8%83%E5%BC%8F">分布式</a></li>
+<li><a href="#templated">Templated</a></li>
+<li><a href="#%E5%B5%8C%E5%85%A5%E5%BC%8F">嵌入式</a></li>
+<li><a href="#%E5%AE%9E%E6%97%B6">实时</a></li>
+<li><a href="#library">Library</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BB%84%E4%BB%B6">组件</a>
+<ul>
+<li><a href="#%E5%86%85%E6%A0%B8">内核</a>
+<ul>
+<li><a href="#%E7%A8%8B%E5%BA%8F%E6%89%A7%E8%A1%8C">程序执行</a></li>
+<li><a href="#%E4%B8%AD%E6%96%AD">中断</a></li>
+<li><a href="#%E6%A8%A1%E5%BC%8F">模式</a></li>
+<li><a href="#%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86">内存管理</a></li>
+<li><a href="#%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98">虚拟内存</a></li>
+<li><a href="#%E5%A4%9A%E4%BB%BB%E5%8A%A1">多任务</a></li>
+<li><a href="#%E7%A3%81%E7%9B%98%E8%AE%BF%E9%97%AE%E4%B8%8E%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F">磁盘访问与文件系统</a></li>
+<li><a href="#%E8%AE%BE%E5%A4%87%E9%A9%B1%E5%8A%A8">设备驱动</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BD%91%E7%BB%9C">网络</a></li>
+<li><a href="#%E5%AE%89%E5%85%A8">安全</a></li>
+<li><a href="#ui">UI</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8F%82%E8%80%83">参考</a></li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
@@ -100,9 +167,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://zer0-1ee.github.io//post/windows-ying-yong-kai-fa">
+            <a href="https://zer0-1ee.github.io//post/fan-yue-wei-qiang">
               <h3 class="post-title">
-                UWP（1）——概念篇
+                翻越“围墙”
               </h3>
             </a>
           </div>
